@@ -1,0 +1,22 @@
+I know that hexagon style used in base stations built. In hexagon style, regular hexagons used to cover
+an area. Each hexagon uses same edges with its neighbour hexagons and base stations builds in their center.
+Now, you want me to estimate how many base stations in Istanbul. I'm going to try to guess numbers of base
+stations for mobile phones in Istanbul, I'll ignore base stations that uses different types of frequency such
+as radio base stations or base stations for using only military reasons. I dont have any known data for cover
+areas of base stations. But I found this paragraph in Wikipedia.
+/*
+In cities, each cell site may have a range of up to approximately 1⁄2 mile (0.80 km), while in rural areas,
+the range could be as much as 5 miles (8.0 km). It is possible that in clear open areas, a user may receive
+signals from a cell site 25 miles (40 km) away. In rural areas with low-band coverage and tall towers,
+basic voice and messaging service may reach 50 miles (80 km), with limitations on bandwidth and number of
+simultaneous calls.
+Here is the source : https://en.wikipedia.org/wiki/Cellular_network#Cellular_frequency_choice_in_mobile_phone_networks
+*/
+According to this paragraph I'll accept the range as 40 km. It's kinda hard to place hexagons on map, so I
+have an easier choice. There is a website calls "Nukemap". It calculates areas that effected of the bombs.
+I'll use this website and imagine bombs as base stations. I used 22800 kilotons of warhead, which and that
+provided me 40km thermal radiation radius, which is the distance that I needed as you can find in Images
+directory, Range image. After that, I covered all Istanbul with 3 base stations. So my estimation/calculation
+is 3.
+I'd like to remind that it's just a basic estimation. In real life the other factors matters, like geographical
+area, population of city...
